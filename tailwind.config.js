@@ -1,0 +1,57 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+    content: ["./index.html", "./src/**/*.{js,jsx}"],
+    safelist: [
+        'bg-white',
+        'bg-black',
+        'bg-red',
+        'bg-green',
+        'bg-blue',
+        'bg-silver',
+        'bg-gray',
+        'bg-maroon',
+        'bg-yellow',
+        'bg-olive',
+        'bg-aqua',
+        'bg-teal',
+        'bg-navy',
+        'bg-fachusia',
+        'bg-purple',
+
+        'text-white',
+        'text-black',
+        'text-red',
+        'text-green',
+        'text-blue',
+        'text-silver',
+        'text-gray',
+        'text-maroon',
+        'text-yellow',
+        'text-olive',
+        'text-aqua',
+        'text-teal',
+        'text-navy',
+        'text-fachusia',
+        'text-purple',
+    ],
+    theme: {
+        extend: {
+            colors:{
+                'red': '#FF0000',
+                'green': '#00FF00',
+                'blue': '#0000FF',
+                'silver': '#C0C0C0',
+                'gray': '#808080',
+                'maroon': '#800000',
+                'yellow': '#FFFF00',
+                'olive': '#808000',
+                'aqua': '#00FFFF',
+                'teal': '#008080',
+                'navy': '#000080',
+                'fachusia': '#FF00FF',
+                'purple': '#800080'
+            }
+        },
+    },
+    plugins: [],
+};
